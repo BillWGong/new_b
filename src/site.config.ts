@@ -119,8 +119,8 @@ export const integ: IntegrationUserConfig = {
     // Yourself link info
     applyTip: [
       { name: 'Name', val: 'BillW Gong' },
-      { name: 'Desc', val: theme.description || 'Null' },
-      { name: 'Link', val: 'https://astro-pure.js.org/' },
+      { name: 'Desc', val: 'Born for Dreams' },
+      { name: 'Link', val: 'https://billwblog.top' },
       { name: 'Avatar', val: 'https://lz-s.cn/b.jpg' }
     ],
     // Cache avatars in `public/avatars/` to improve user experience.
