@@ -3,11 +3,11 @@ import type { CardListData, Config, IntegrationUserConfig, ThemeUserConfig } fro
 export const theme: ThemeUserConfig = {
   // === Basic configuration ===
   /** Title for your website. Will be used in metadata and as browser tab title. */
-  title: '编程联盟',
+  title: "BillW Gong's Blog",
   /** Will be used in index page & copyright declaration */
-  author: '编程联盟',
+  author: 'BillW Gong',
   /** Description metadata for your website. Can be used in page metadata. */
-  description: '游戏化编程学习',
+  description: 'Born for Dreams',
   /** The default favicon for your site which should be a path to an image in the `public/` directory. */
   favicon: 'https://lz-s.cn/b.jpg',
   /** Specify the default language for this site. */
@@ -24,8 +24,8 @@ export const theme: ThemeUserConfig = {
   },
   /** Set a logo image to show in the homepage. */
   logo: {
-    src: 'http://bclm.fun/logo2.png',
-    alt: '编程联盟'
+    src: 'https://lz-s.cn/b.jpg',
+    alt: 'Avatar'
   },
 
   // === Global configuration ===
@@ -115,9 +115,9 @@ export const integ: IntegrationUserConfig = {
     ],
     // Yourself link info
     applyTip: [
-      { name: 'Name', val: '编程联盟' },
-      { name: 'Desc', val: '游戏化编程学习' },
-      { name: 'Link', val: 'http://bclm.fun' },
+      { name: 'Name', val: 'BillW Gong' },
+      { name: 'Desc', val: 'Born for Dreams' },
+      { name: 'Link', val: 'https://billwblog.top' },
       { name: 'Avatar', val: 'https://lz-s.cn/b.jpg' }
     ],
     // Cache avatars in `public/avatars/` to improve user experience.
